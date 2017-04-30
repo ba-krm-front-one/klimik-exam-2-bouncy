@@ -1,20 +1,14 @@
 $(document).ready(function() {
 
-    $('.team__cards').bxSlider({
+    $('.team__cards--slider').bxSlider({
         controls: false,
         keyboardEnabled: true
     });
 
-    // $('.testimonials__cards').bxSlider({
-    //     controls: false,
-    //     keyboardEnabled: true,
-    //     auto: true
-    // });
-
-    $('.testimonials__cards').slick({
-        autoplay: true,
-        autoplaySpeed: 4000,
-        arrows: false
+    $('.testimonials__cards--slider').bxSlider({
+        controls: false,
+        keyboardEnabled: true,
+        auto: true
     });
 
     smoothScroll.init({
