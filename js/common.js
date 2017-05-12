@@ -41,7 +41,7 @@ $(document).ready(function() {
     });
 });
 
-;(function () {
+(function () {
     window.onload = function () {
         let map,
             point = {lat: 48.7268145, lng: 37.6019125},

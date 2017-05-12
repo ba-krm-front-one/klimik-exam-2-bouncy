@@ -764,42 +764,10 @@ img {
   .ba-width-xlarge-4-5 {
     width: 80%; } }
 
-body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  font-weight: 400; }
-
-.container {
-  max-width: 1170px; }
-
-.outer-section {
-  text-align: center;
-  padding: 89px 0 102px; }
-  .outer-section__title {
-    font-family: "Source Sans Pro", sans-serif;
-    color: #333b46;
-    font-size: 20px;
-    font-weight: 300;
-    letter-spacing: 4px;
-    line-height: 12px;
-    text-transform: uppercase; }
-  .outer-section__text {
-    color: #81868e;
-    font-size: 14px;
-    line-height: 25px;
-    max-width: 457px;
-    margin: 41px auto 60px; }
-
-.main-head {
-  width: 100%;
-  height: 737px;
-  padding: 39px 0 77px;
-  background: url("../img/bg-head.jpg") 50% 50% no-repeat #000;
-  background-size: cover; }
-
 .top-menu__item {
   float: left;
   padding: 5px 20px;
+  margin: 0 5px;
   cursor: pointer; }
   .top-menu__item:hover {
     border: 1px solid #fff;
@@ -842,6 +810,13 @@ body {
     transition: transform .2s ease-in; }
     .top-banner__arrow:hover {
       opacity: 0.8; }
+
+.main-head {
+  width: 100%;
+  height: 737px;
+  padding: 39px 0 77px;
+  background: url("../img/bg-head.jpg") 50% 50% no-repeat #000;
+  background-size: cover; }
 
 .portfolio {
   background-color: #f1f1f1; }
@@ -918,12 +893,6 @@ body {
   margin-top: 20px;
   margin-right: 40px; }
 
-.dots .dot {
-  border-radius: 50%;
-  background-color: #19bd9a;
-  width: 10px;
-  height: 10px; }
-
 .contact-us {
   text-align: center;
   padding: 58px 0;
@@ -972,11 +941,6 @@ body {
     line-height: 20px;
     text-transform: uppercase; }
 
-.dots {
-  color: #fff;
-  background-color: #000;
-  padding: 50px; }
-
 .contact {
   padding-bottom: 0; }
 
@@ -998,3 +962,29 @@ body {
     padding: 4px; }
     .main-footer__social:hover {
       transform: scale(1.2); }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400; }
+
+.container {
+  max-width: 1170px; }
+
+.outer-section {
+  text-align: center;
+  padding: 89px 0 102px; }
+  .outer-section__title {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #333b46;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    line-height: 12px;
+    text-transform: uppercase; }
+  .outer-section__text {
+    color: #81868e;
+    font-size: 14px;
+    line-height: 25px;
+    max-width: 457px;
+    margin: 41px auto 60px; }
