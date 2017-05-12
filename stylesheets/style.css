@@ -768,7 +768,8 @@ img {
   float: left;
   padding: 5px 20px;
   margin: 0 5px;
-  cursor: pointer; }
+  cursor: pointer;
+  border: 1px solid transparent; }
   .top-menu__item:hover {
     border: 1px solid #fff;
     border-radius: 20px; }
